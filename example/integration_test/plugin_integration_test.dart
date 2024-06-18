@@ -15,7 +15,7 @@ import 'package:flutter_logcat/flutter_logcat.dart';
 void main() {
   IntegrationTestWidgetsFlutterBinding.ensureInitialized();
 
-  testWidgets('getPlatformVersion test', (WidgetTester tester) async {
+  testWidgets('log test', (WidgetTester tester) async {
     // The version string depends on the host platform running the test, so
     // just assert that some non-empty string is returned.
     final value = await Log.d("DEBUG_TAG", "Debug Message");

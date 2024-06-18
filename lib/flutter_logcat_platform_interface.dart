@@ -23,9 +23,6 @@ abstract class FlutterLogcatPlatform extends PlatformInterface {
     _instance = instance;
   }
 
-  // Future<String?> getPlatformVersion() {
-  //   throw UnimplementedError('platformVersion() has not been implemented.');
-  // }
   Future<String?> log(String tag, String message, {String? type}) {
     throw UnimplementedError('platformVersion() has not been implemented.');
   }

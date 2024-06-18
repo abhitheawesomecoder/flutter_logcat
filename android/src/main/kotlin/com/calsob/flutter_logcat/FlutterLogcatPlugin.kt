@@ -38,24 +38,6 @@ class FlutterLogcatPlugin : FlutterPlugin, MethodCallHandler {
         } else {
             result.notImplemented()
         }
-//        if (call.method == "getPlatformVersion") {
-//            android.util.Log.d("call_argument", call.arguments.toString())
-//            val arg1 = call.argument<Any>("arg1").toString()
-//            val arg2 = call.argument<Any>("arg2").toString()
-//            val arg3 = call.argument<Any>("arg3").toString()
-//            android.util.Log.d(arg1, "onMethodCall: ")
-//            android.util.Log.e(arg2, "onMethodCall: ")
-//            android.util.Log.w(arg3, "onMethodCall: ")
-//            android.util.Log.i(arg1, "onMethodCall: ")
-//            android.util.Log.v(arg2, "onMethodCall: ")
-//            val red = "\u001b[31m"
-//            val reset = "\u001b[0m"
-//            println(red + "Hello World!" + reset)
-//
-//            result.success("Android ${android.os.Build.VERSION.RELEASE}")
-//        } else {
-//            result.notImplemented()
-//        }
     }
 
     override fun onDetachedFromEngine(binding: FlutterPlugin.FlutterPluginBinding) {
